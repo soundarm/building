@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(void) {
+  char n;
+printf("\n enter the alphabet");
+  scanf("%c",&n);
+  if(n==65||73||69||79||85||97||101||105||111||117)
+    printf("\n the given   letter is vowel");
+  else
+    printf("\n the given letter is consonant");
+	return 0;
+}
